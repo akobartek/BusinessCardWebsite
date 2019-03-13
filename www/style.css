@@ -1,0 +1,166 @@
+body {
+    background-color: #2c2c2c;
+    color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 300000;
+}
+
+a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    height: 60px;
+    width: 100%;
+    background-color: #b32216;
+    text-align: center;
+    top: 0;
+    position: fixed;
+    border-bottom: 2px solid #751b1b;
+    z-index: 10;
+}
+
+.nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav li {
+    float: left;
+    text-align: center;
+    padding: 20px 40px;
+    border-right: 1px solid #751b1b;
+}
+
+.nav li:first-child {
+    border-left: 1px solid #751b1b;
+}
+
+.nav li:hover,
+.nav li:focus {
+    background-color: #851c13;
+    cursor: pointer;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 100px;
+}
+
+#aboutMe {
+    background-color: #2c2c2c;
+    padding-top: 120px;
+}
+
+#experience {
+    background-color: #130950;
+    margin-top: -10px;
+}
+
+#experience a {
+    color: rgb(252, 150, 150);
+}
+
+#experience a:hover {
+    color: red;
+}
+
+#skills {
+    background-color: #3f161d;
+    margin-top: -10px;
+}
+
+#skills ul {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: start;
+}
+
+#contact {
+    margin-top: -10px;
+}
+
+.betweenImage {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.mail {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #D44638;
+    float: left;
+}
+
+.mail:hover {
+    background-color: #B23121;
+}
+
+.fb {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #4668b3;
+    float: left;
+}
+
+.fb:hover {
+    background-color: #3557a2;
+}
+
+.linkedin {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #0077B5;
+    float: left;
+}
+
+.linkedin:hover {
+    background-color: rgb(0, 86, 133);
+}
+
+.tw {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #3095d3;
+    float: left;
+}
+
+.tw:hover {
+    background-color: #2084c2;
+}
+
+.contactOptions {
+    width: 240px;
+    margin: auto;
+}
+
+.contactImg {
+    padding-top: 18px;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wizytówka - Bartłomiej Sokołowski</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script>
+        jQuery(function ($) {
+            $('#aboutMeLink').click(function () {
+                $.scrollTo($('#aboutMe'), 500);
+            });
+            $('#experienceLink').click(function () {
+                $.scrollTo($('#experience'), 500);
+            });
+            $('#skillsLink').click(function () {
+                $.scrollTo($('#skills'), 500);
+            });
+            $('#contactLink').click(function () {
+                $.scrollTo($('#contact'), 500);
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav">
+                <ul>
+                    <li><a id="aboutMeLink" href="#">O mnie</a></li>
+                    <li><a id="experienceLink" href="#">Doświadzenie</a></li>
+                    <li><a id="skillsLink" href="#">Umiejętności</a></li>
+                    <li><a id="contactLink" href="#">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <section id="aboutMe" class="section">
+                <div>
+                    <img src="img/person.png" />
+                    <h1>O mnie</h1>
+                    <p>
+                        Dzień dobry, nazywam się Bartłomiej Sokołowski, a poniższa strona została wykonana w ramach
+                        warsztatów CodersCamp w celu zaprezentowania swojej osoby.
+                    </p>
+                    <p>
+                        Jestem studentem IV roku Informatyki na Wydziale Informatyki i Zarządzania na Politechnice
+                        Wrocławskiej, na specjalności Zastosowania Specjalistycznych Technologii Informatycznych.
+                    </p>
+                    <p>
+                        Prywatnie interesuję się muzyką, sportem (szczególnie piłką nożną), a także programowaniem
+                        aplikacji mobilnych,
+                        co dotychczas było moim głównym zajęciem, którego efektem jest kilka stworzonych i nadal
+                        rozwijanych aplikacji.
+                    </p>
+                </div>
+            </section>
+            <img src="img/coding.jpeg" class="betweenImage" />
+            <section id="experience" class="section">
+                <div>
+                    <img src="img/experience.png" />
+                    <h1>Doświadczenie</h1>
+                    <p>
+                        Moje doświadczenie opiera się na praktykach oraz projektach, które miałem okazję wykonać
+                        zarówno studiach, jak i na "zlecenie".
+                        Są to głównie aplikacji mobilne na system Android oraz iOS oraz programy pisane głównie w
+                        językach
+                        Kotlin, Java oraz C++.
+                    </p>
+                    <p>
+                        Część moich projektów, która może zostać opublikowana znajduje się na
+                        <a href="https://github.com/akobartek/" target="_blank">moim Githubie</a>, natomiast parę
+                        aplikacji mobilnych dostępnych jest w sklepie Google Play, między innymi na
+                        <a href="https://play.google.com/store/apps/developer?id=Wr%C3%B3blewskiego+App+Development">moim
+                            koncie deweloperskim</a>.
+                    </p>
+                    <p>
+                        Byłem także uczestnikiem wielu warsztatów programistycznych, między innymi
+                        <a href="https://www.youtube.com/watch?v=gVK1GlJ_tvE">Android Bootcamp #3</a>,
+                        organizowanym przez firmę Droids on Roids we wrześniu 2017 roku, czy też warsztatów Android
+                        Nanodegree na platformie <a href="https://udacity.com">Udacity</a>, podczas których znalazłem
+                        się w czołowych
+                        stu osobach z 80000 zgłoszeń, dzięki czemu otrzymałem zaproszenie na
+                        <a href="https://developers.google.com/events/gdd-europe/">Google Developer Days Europe</a>,
+                        które odbywało się w Krakowie w 2017 roku.
+                    </p>
+                </div>
+            </section>
+            <img src="img/coding2.jpg" class="betweenImage" />
+            <section id="skills" class="section">
+                <div>
+                    <img src="img/skill.png" />
+                    <h1>Umiejętności</h1>
+                    <p>
+                        W ramach umiejętności związanych z pracą programisty zaoferować mogę:
+                        <ul>
+                            <li>Znajomość metodyk zwinnych</li>
+                            <li>Znajomość obiektowego i funkcyjnego<br>paradygmatu programowania</li>
+                            <li>Umiejętność pracy w SCRUMie</li>
+                            <li>Dobrą komunikatywność z zespołem</li>
+                        </ul>
+                    </p>
+                    <br>
+                    <p>
+                        Ponadto mogę pochwalić się znajomością następujących technologii:
+                        <ul>
+                            <li>Kotlin - bdb</li>
+                            <li>Java - bdb</li>
+                            <li>C++ - db</li>
+                            <li>Javascript - db</li>
+                            <li>HTML/CSS - śr</li>
+                            <li>Scala - śr</li>
+                        </ul>
+                    </p>
+                    <br>
+                    <p>
+                        A także językami obcymi:
+                        <ul>
+                            <li>Angielski - bdb</li>
+                            <li>Niemiecki - db</li>
+                            <li>Hiszpaśki - słaby</li>
+                            <li>Włoski - słaby</li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
+            <img src="img/coding3.jpg" class="betweenImage" />
+            <section id="contact" class="section">
+                <img src="img/mail.png" />
+                <div>
+                    <h1>Kontakt</h1>
+                    <p>
+                        Zapraszam do kontaktu ze mną za pomocą poniżej wymienionych możliwości:
+                    </p>
+                    <div class="contactOptions">
+                        <div class="mail">
+                            <a href="mailto:sokolowskijbartek@gmail.com" target="_blank"><img class="contactImg" src="img/at.png"></a>
+                        </div>
+                        <div class="fb">
+                            <a href="https://www.facebook.com/sokolowskibartek" target="_blank"><img class="contactImg"
+                                    src="img/facebook.png"></a>
+                        </div>
+                        <div style="clear:both;"></div>
+                        <div class="linkedin">
+                            <a href="https://www.linkedin.com/in/bartłomiej-sokołowski-070943106" target="_blank"><img
+                                    class="contactImg" src="img/linkedin.png"></a>
+                        </div>
+                        <div class="tw">
+                            <a href="https://twitter.com/akobartek" target="_blank"><img class="contactImg" src="img/twitter.png"></a>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
